@@ -12,12 +12,13 @@ class Retangulo{
   }
 }
 
-
 let retangulo = new Retangulo("10", "10");
 let retan = new Retangulo("60", "30");
+let retangul = new Retangulo("50", "20");
 console.log(retangulo.altura)
 console.log(retangulo.largura)
 console.log(retan.altura)
 console.log(retan.largura)
 console.log(retangulo.areaResposta())
 console.log(retan.areaResposta())
+console.log(retangul.areaResposta())
